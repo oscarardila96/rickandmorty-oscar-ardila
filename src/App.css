@@ -37,6 +37,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url(./assets/polvo-de-estrellas.a57357e1.gif);
+  margin: 0;
 }
 
 .loading-screen {
@@ -111,6 +112,7 @@ header {
   padding: 5px;
   background-color: #062226;
   border: 2px solid #3bae44;
+  border-radius: 10px;
 }
 
 .input button:hover {
@@ -259,6 +261,10 @@ p {
   transform: scale(1);
   transition: all .2s ease-in;
   margin-bottom: 50px;
+}
+
+.character-card img {
+  border-radius: 10px;
 }
 
 .character-card:hover {

@@ -54,17 +54,17 @@ const PlanetsLocations = () => {
               <div className='planet1'>
                 <div>
                   <h2>Planet name:</h2>
-                  <p>{location.name}</p>
+                  <p>{location.name === "" ? "N/A" : location.name}</p>
                 </div>
                 <div>
                   <h2>Tipo:</h2>
-                  <p>{location.type}</p>
+                  <p>{location.type === "" ? "N/A" : location.type}</p>
                 </div>
               </div>
               <div className='planet2'>
                 <div>
                   <h2>Dimension:</h2>
-                  <p>{location.dimension}</p>
+                  <p>{location.dimension === "" ? "N/A" : location.dimension}</p>
                 </div>
                 <div>
                   <h2>Poblacion:</h2>
@@ -103,11 +103,10 @@ const PlanetsLocations = () => {
           <h2 >Made with Passion <img src={heart} style={{ width: "25px" }}></img> by GhostCode</h2>
           <div className='footer'>
             <h2>Elio Maure</h2>
-            <h2>Matias Barengo</h2>
+            <h2>Matias Barengo</h2>s
             <h2>Laura Padrón</h2>
             <h2>Oscar Ardila</h2>
           </div>
-          {/* <img src="src\assets\831751.png" style={{ width: "100%", height: "600px" }} /> */}
         </div>
       }
     </>
