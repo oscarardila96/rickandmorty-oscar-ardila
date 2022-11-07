@@ -55,7 +55,7 @@ const PlanetsLocations = () => {
                   <p>{location.name === "" ? "N/A" : location.name}</p>
                 </div>
                 <div>
-                  <h2>Tipo:</h2>
+                  <h2>Type:</h2>
                   <p>{location.type === "" ? "N/A" : location.type}</p>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const PlanetsLocations = () => {
                   <p>{location.dimension === "" ? "N/A" : location.dimension}</p>
                 </div>
                 <div>
-                  <h2>Poblacion:</h2>
+                  <h2>Population:</h2>
                   <p>{location.residents?.length}</p>
                 </div>
               </div>
