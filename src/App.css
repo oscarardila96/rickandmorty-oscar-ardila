@@ -213,7 +213,7 @@ p {
 
 .planet-info p {
   font-size: 20px;
-  text-shadow:
+/*   text-shadow:
     0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff,
@@ -225,7 +225,7 @@ p {
   animation-name: animation2;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  color: black;
+  color: black; */
 }
 
 
